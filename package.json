@@ -1,0 +1,20 @@
+{
+  "name": "howitis-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "How It Is Remotion: How Does a Refrigerator Work?",
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "typescript": "^5.6.0"
+  },
+  "scripts": {
+    "render": "remotion render HowFridge out/how-a-fridge-works.mp4",
+    "start": "remotion studio"
+  }
+}
